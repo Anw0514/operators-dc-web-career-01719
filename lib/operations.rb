@@ -7,7 +7,6 @@
       answer = true
     end
     return answer
-    #speed > 60 ? answer = true : answer = false
   end
   
   def not_safe?(speed)
