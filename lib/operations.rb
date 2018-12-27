@@ -1,7 +1,11 @@
 #def operations
   def unsafe?(speed)
     answer = false
-    speed > 60 ? answer == true : answer == false
+    if speed > 60
+      answer == true
+    end
+    return answer
+    #speed > 60 ? answer == true : answer == false
   end
   
   
